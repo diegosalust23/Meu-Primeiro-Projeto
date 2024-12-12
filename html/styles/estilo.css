@@ -11,16 +11,47 @@ body{
     background-size: cover;
     /*essa tag pra centralizer uma imagens*/
     background-position: right center;
+    padding-top: 5px;
 }
 
 .hero-content{
     margin: 50px auto 0;
     width: 50%;
     text-align: center;
+    color: white;
 }
 
 .hero-content h1{
     font-size: 56px;
     text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
 
+}
+
+.hero-content p{
+         background-color: rgba(0,0,0,0,7);
+         font-size: 18px;
+         display: inline-block;
+         padding: 16px;
+         border-bottom: 2px solid;
+}
+
+.hero nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style-type: nome;
+    border: 1px solid white;
+    margin-left: 16px;
+}
+
+.hero nav a{
+    background-color: rgba(0,0,0 .3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: nome;
 }
