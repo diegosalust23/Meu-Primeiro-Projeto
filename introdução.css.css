@@ -1,0 +1,44 @@
+body{
+    background-color: #cccccc;
+}
+h1{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    text-align: center;
+}
+/* color:#0000ff; */
+h2{
+    font-size: 48px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h3{
+   font-size: 38px;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #00ffff;
+}
+p{
+    text-indent: 58px;
+    font-size: 28px;
+    text-align: left;
+    color: #0000ff;
+    font-variant: small-caps;
+}
+a{
+    text-decoration: nome;
+    font-variant: normal;
+}
+
+.destaque{
+    color: #00126d;
+    font-weight: bold;
+}
+
+#titulo{
+    color: #7b5101;
+      
+}
