@@ -16,15 +16,16 @@ body{
 
 .hero-content{
     margin: 50px auto 0;
-    width: 50%;
+    width: 80%;
     text-align: center;
     color: white;
 }
 
 .hero-content h1{
-    font-size: 56px;
+    font-size: 100px auto 0;
     text-shadow: 2px 2px 2px black;
     text-transform: uppercase;
+    margin-bottom: 0;
 
 }
 
@@ -54,4 +55,51 @@ body{
     display: block;
     color: white;
     text-decoration: nome;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
+
+.hero nav a:houver{
+    background-color: rgba(0,0,0 .5);
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+article h2{
+    border-bottom: 2px solid #accc;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.btn{
+    background-color: #cdc7c3;
+    display: block;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-left: auto;
+    width: fit-content;
+    
+}
+
+.rodape{
+    color: white;
+    background-color: #666c68;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
+
